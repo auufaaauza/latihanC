@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+}
+
+.auth-container, .upload-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input[type="email"], input[type="password"], input[type="file"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #ccc;
+}
+
+.error {
+  color: red;
+  margin: 1rem 0;
+}
+
+.history {
+  padding: 2rem;
+}
+
+.history-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+}
